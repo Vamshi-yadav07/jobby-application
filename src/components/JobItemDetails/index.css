@@ -244,10 +244,15 @@
   height: 80vh;
 }
 
-
 .description-of-company {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 7px;
+}
+
+@media screen and (max-width: 768px) {
+  .description-of-company  {
+    flex-direction: column;
+  }
 }

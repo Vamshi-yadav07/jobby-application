@@ -49,7 +49,7 @@ const JobItem = props => {
           </div>
           <p className="package">{packagePerAnnum}</p>
         </div>
-        <hr width="100%" />
+        <hr className="horizontal-line" />
         <div className="job-item-description-container">
           <h1 className="job-item-description-heading">Description</h1>
           <p className="job-item-description">{jobDescription}</p>

@@ -10,6 +10,7 @@
   border-radius: 10px;
 }
 
+
 .link-item {
   display: flex;
   flex-direction: column;
@@ -115,5 +116,5 @@
   color: #ffffff;
   font-family: 'Roboto';
   font-size: 13px;
-line-height: 20px;  
+  line-height: 20px;
 }
